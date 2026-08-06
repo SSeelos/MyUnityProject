@@ -1,0 +1,18 @@
+using UnityEngine.UIElements;
+
+	#ROOTNAMESPACEBEGIN#
+[UxmlElement]
+public class #SCRIPTNAME# : VisualElement
+{
+    string _myString;
+    [UxmlAttribute]
+    public string MyString
+    {
+        get => _myString;
+        set
+        {
+            _myString = value;
+        }
+    }
+}
+#ROOTNAMESPACEEND#

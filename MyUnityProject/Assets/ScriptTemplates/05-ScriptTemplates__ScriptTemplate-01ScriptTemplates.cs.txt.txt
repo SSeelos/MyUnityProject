@@ -1,0 +1,9 @@
+FileName:
+{Priority}-{Menu}__{SubMenu/Name}-{DefaultName}.{FileExtension}.txt
+Keywords:
+#SCRIPTNAME# – the file name.
+#NAME# – same as #SCRIPTNAME#
+#NOTRIM# – the whitespace is not deleted.
+#SCRIPTNAME_LOWER# – the first letter of the name is changed to a lower case.
+#ROOTNAMESPACEBEGIN# - root namespace (if defined under edit/project setting/editor - root namespace)
+#ROOTNAMESPACEEND# - end namespace

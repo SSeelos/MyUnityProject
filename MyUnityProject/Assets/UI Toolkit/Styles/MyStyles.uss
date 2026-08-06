@@ -1,1 +1,8 @@
+MyVisualElement {
+}
 
+MyVisualElement > #myContainerName {
+}
+
+MyVisualElement > #myContainerName > #myLabelName {
+}
