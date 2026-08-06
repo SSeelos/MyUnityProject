@@ -21,7 +21,6 @@ public partial class MyVisualElement : VisualElement
         container.name = "myContainerName";
         var label = new Label("myLabel");
         label.name = "myLabelName";
-
         base.Add(container);
         container.Add(label);
     }
