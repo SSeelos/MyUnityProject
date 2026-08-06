@@ -9,19 +9,40 @@ public partial class MyVisualElement : VisualElement
     public string MyString
     {
         get => _myString;
-        set
-        {
-            _myString = value;
-            //update UI?
-        }
+        set => _myString = value;
     }
+    [UxmlAttribute]
+    public string MyLabel
+    {
+        get => label.text;
+        set => label.text = value;
+    }
+    [UxmlAttribute]
+    public string MyValue
+    {
+        get => labelValue.text;
+        set => labelValue.text = value;
+    }
+    Label label;
+    Label labelValue;
     public MyVisualElement()
     {
-        var container = new VisualElement();
-        container.name = "myContainerName";
-        var label = new Label("myLabel");
-        label.name = "myLabelName";
-        base.Add(container);
-        container.Add(label);
+        label = this.AddOfType(new Label("myLabel")
+        {
+            name = "myLabelName"
+        });
+        var container = this.AddOfType(new VisualElement()
+        {
+            name = "myContainerName"
+        });
+        container.AddOfType(new Label("myValueLabel")
+        {
+            name = "myValueLabelName",
+            text = "Value:"
+        });
+        labelValue = container.AddOfType(new Label("myValue")
+        {
+            name = "myValueName"
+        });
     }
 }

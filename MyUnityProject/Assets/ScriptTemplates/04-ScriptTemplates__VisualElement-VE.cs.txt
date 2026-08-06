@@ -9,10 +9,11 @@ public class #SCRIPTNAME# : VisualElement
     public string MyString
     {
         get => _myString;
-        set
-        {
-            _myString = value;
-        }
+        set => _myString = value;
+    }
+    public #SCRIPTNAME#()
+    {
+        #NOTRIM
     }
 }
 #ROOTNAMESPACEEND#

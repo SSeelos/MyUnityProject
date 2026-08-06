@@ -5,11 +5,11 @@
             <ui:Button text="Menu" name="menuBtn"/>
         </ui:VisualElement>
         <ui:VisualElement name="midPanel" picking-mode="Ignore" style="flex-grow: 1; flex-direction: row;">
-            <ui:VisualElement name="leftPanel" picking-mode="Ignore" style="flex-grow: 1;">
-                <MyVisualElement my-string="myValue"/>
+            <ui:VisualElement name="leftPanel" picking-mode="Ignore" style="flex-grow: 0;">
+                <MyVisualElement my-string="myValue" my-label="myLabel" my-value="myValue"/>
             </ui:VisualElement>
             <ui:VisualElement name="centerPanel" picking-mode="Ignore" style="flex-grow: 1;"/>
-            <ui:VisualElement name="rightPanel" picking-mode="Ignore" style="flex-grow: 1;"/>
+            <ui:VisualElement name="rightPanel" picking-mode="Ignore" style="flex-grow: 0;"/>
         </ui:VisualElement>
         <ui:VisualElement name="botPanel" picking-mode="Ignore" style="flex-grow: 0; flex-direction: row;"/>
     </ui:VisualElement>

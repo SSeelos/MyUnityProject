@@ -6,11 +6,15 @@ MyVisualElement {
 }
 
 MyVisualElement > #myContainerName {
+    flex-direction: row;
 }
 
-MyVisualElement > #myContainerName > #myLabelName {
-}
+
+
+
 
 Button {
     -unity-font-definition: resource("Fonts & Materials/Cause-VariableFont_wght");
+    background-color: rgb(41, 75, 41);
+    color: rgb(219, 231, 201);
 }
