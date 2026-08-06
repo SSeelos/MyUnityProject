@@ -1,5 +1,5 @@
 Label {
-    -unity-font-definition: resource("Fonts & Materials/Cause-VariableFont_wght SDF");
+    -unity-font-definition: resource("Fonts & Materials/Cause-VariableFont_wght");
 }
 
 MyVisualElement {

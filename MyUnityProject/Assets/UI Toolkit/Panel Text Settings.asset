@@ -43,9 +43,7 @@ MonoBehaviour:
     m_UseModernHangulLineBreakingRules: 0
   m_DisplayWarnings: 0
   m_FontReferences:
-  - font: {fileID: 2230732570650464555, guid: e520a64539046b047a469436b7e5ca41, type: 3}
-    fontAsset: {fileID: 0}
   - font: {fileID: 12800000, guid: d3ad26f17ec6d6044acda6b4fc453352, type: 3}
     fontAsset: {fileID: 0}
-  - font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  - font: {fileID: 2230732570650464555, guid: e520a64539046b047a469436b7e5ca41, type: 3}
     fontAsset: {fileID: 0}
